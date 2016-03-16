@@ -1,0 +1,30 @@
+{
+  "name": "invision-test-project",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "consumer.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "consumer": "node consumer.js",
+    "producer": "node producer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EugeneDumanskyi/invision-test-project"
+  },
+  "keywords": [
+    "test app"
+  ],
+  "author": "Eugene Dumanskiy <dumanskiy.evgeniy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EugeneDumanskyi/invision-test-project/issues"
+  },
+  "dependencies": {
+    "request-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4"
+  }
+}
