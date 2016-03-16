@@ -8,6 +8,12 @@
 
 ## How to run
 
+Install all dependencies:
+
+``` bash
+$ npm install
+```
+
 Consumer is http server that listen 1337 port and should be run only once:
 
 ``` bash
